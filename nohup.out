@@ -1,0 +1,30 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
+ERROR Process failed: _posts/hello-world.md
+YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 22:
+    title: Hexo Blog Demo: Hello World
+                         ^
+    at generateError (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)
+    at throwError (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)
+    at readBlockMapping (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1027:9)
+    at composeNode (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)
+    at readDocument (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)
+    at loadDocuments (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)
+    at Object.load (/alidata/www/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)
+    at parseYAML (/alidata/www/hexo/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/alidata/www/hexo/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at /alidata/www/hexo/node_modules/hexo/lib/plugins/processor/post.js:48:20
+    at tryCatcher (/alidata/www/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:514:35)
+    at Promise._settlePromise (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:643:18)
+    at PromiseArray._resolve (/alidata/www/hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/alidata/www/hexo/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/alidata/www/hexo/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/alidata/www/hexo/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:571:21)
+    at Promise._settlePromise0 (/alidata/www/hexo/node_modules/bluebird/js/release/promise.js:619:10)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
